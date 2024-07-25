@@ -10,11 +10,11 @@ import javax.persistence.Table;
 @Table(name = "stdinfo")
 public class Student {
 	@Id
-	@Column(name = "stdroll")
+	@Column(name = "stdRoll")
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	int roll_no;
 	
-	@Column(name = "stdname")
+	@Column(name = "stdName")
 	String name;
 	
 	public int getRoll_no() {
