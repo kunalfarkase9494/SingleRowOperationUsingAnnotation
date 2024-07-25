@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity //mapping entity
-@Table(name = "stdinfo")
+@Table(name = "stdInfo")
 public class Student {
 	@Id
 	@Column(name = "stdRoll")
